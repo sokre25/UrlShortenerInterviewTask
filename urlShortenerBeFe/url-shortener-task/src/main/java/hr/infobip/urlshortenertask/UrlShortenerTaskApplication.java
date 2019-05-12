@@ -14,11 +14,4 @@ public class UrlShortenerTaskApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UrlShortenerTaskApplication.class, args);
 	}
-
-	@Bean(name = "dataSource")
-	@ConfigurationProperties(prefix = "spring.datasource")
-	public DataSource dataSource(){
-		return DataSourceBuilder.create().build();
-	}
-
 }

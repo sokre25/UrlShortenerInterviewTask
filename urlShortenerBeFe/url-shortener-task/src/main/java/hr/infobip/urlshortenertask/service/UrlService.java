@@ -8,6 +8,6 @@ import hr.infobip.urlshortenertask.model.db.Url;
  */
 public interface UrlService {
     void saveUrlData(Url url);
-    Url getUrlIdByUrlValue(String urlValue);
+    Url getUrlByFullUrlValue(String fullUrlValue);
     String getUrlByUrlId(int urlId);
 }

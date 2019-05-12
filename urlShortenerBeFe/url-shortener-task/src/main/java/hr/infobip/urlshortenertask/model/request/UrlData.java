@@ -1,6 +1,6 @@
 package hr.infobip.urlshortenertask.model.request;
 
-import hr.infobip.urlshortenertask.util.RedirectTypeConstraint;
+import hr.infobip.urlshortenertask.validator.RedirectTypeConstraint;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.validator.constraints.URL;

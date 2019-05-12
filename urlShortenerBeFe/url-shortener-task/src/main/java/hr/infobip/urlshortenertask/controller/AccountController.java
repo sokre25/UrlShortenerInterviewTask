@@ -29,7 +29,7 @@ public class AccountController {
     private final AccountResponseService accountResponseService;
 
     @Autowired
-    public AccountController(AccountResponseService accountResponseService, RegisterResponseService registerResponseService, RedirectService redirectService) {
+    public AccountController(AccountResponseService accountResponseService) {
         this.accountResponseService = accountResponseService;
     }
 

@@ -1,4 +1,4 @@
-package hr.infobip.urlshortenertask.util;
+package hr.infobip.urlshortenertask.validator;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

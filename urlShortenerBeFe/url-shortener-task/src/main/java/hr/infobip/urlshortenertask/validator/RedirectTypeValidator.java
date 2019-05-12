@@ -1,4 +1,4 @@
-package hr.infobip.urlshortenertask.util;
+package hr.infobip.urlshortenertask.validator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

@@ -26,8 +26,8 @@ public class UrlServiceImpl implements UrlService {
     }
 
     @Override
-    public Url getUrlIdByUrlValue(String urlValue) {
-        return urlRepository.findByFullUrl(urlValue);
+    public Url getUrlByFullUrlValue(String fullUrlValue) {
+        return urlRepository.findByFullUrl(fullUrlValue);
     }
 
     @Override

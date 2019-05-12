@@ -39,7 +39,7 @@ public class RegisterResponseService {
         Url newUrlObject = null;
         RegisterUrlResponse registerUrlResponse = null;
 
-        Url databaseUrlObject = urlService.getUrlIdByUrlValue(urlData.getUrl());
+        Url databaseUrlObject = urlService.getUrlByFullUrlValue(urlData.getUrl());
 
         if(databaseUrlObject == null) {
             newUrlObject = new Url();
